@@ -1,0 +1,33 @@
+{
+  "name": "docker-dashboard-with-react-typescript-socketio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js & webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.54",
+    "classnames": "^2.2.5",
+    "dockerode": "^2.3.2",
+    "express": "^4.15.0",
+    "lodash": "^4.17.4",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^3.3.32",
+    "@types/classnames": "0.0.32",
+    "@types/jquery": "^2.0.40",
+    "@types/react": "^15.0.14",
+    "@types/react-dom": "^0.14.23",
+    "@types/socket.io": "^1.4.28",
+    "@types/socket.io-client": "^1.4.29",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "source-map-loader": "^0.1.6",
+    "ts-loader": "^2.0.1"
+  }
+}
