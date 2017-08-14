@@ -9,6 +9,7 @@
                  [reagent "0.7.0"
                   :exclusions [cljsjs/react-dom
                                cljsjs/react-dom-server]]
+                 [re-frame "0.9.4"]
                  [cljsjs/react-with-addons "15.4.2-2"]
                  [cljsjs/react-dom "15.4.2-2"
                   :exclusions [cljsjs/react]]
